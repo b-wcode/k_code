@@ -68,13 +68,12 @@ fun Tarjeta(){
 }
 
 
-@Preview(showBackground = true ,widthDp = 360,
-    heightDp = 640)
+@Preview(showBackground = true )
 @Composable
 fun TarjetaPreview() {
     Column(modifier = Modifier.fillMaxSize()
         .background(color = Color(0xFFF6EFD1))
-        .padding(top = 150.dp)
+        .padding(top = 190.dp)
         , horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
